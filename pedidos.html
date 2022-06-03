@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+</head>
+<body background="./fondo2.webp">
+    <h1>Pedidos</h1>
+    <form action="pedido.js">
+    <label for="Nombre">Ingresa tu nombre</label><br>
+    <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br>
+    <label for="tell">Número</label><br>
+    <input type="tel" id="tell" name="tell" maxlength="10" placeholder="Ej. 5544332211"><br>
+    <label for="correo">Correo</label><br>
+    <input type="email" id="correo" name="correo" placeholder="nombre@hotmail.com"><br><br>
+    <label for="Nombre">Ingresa una descripción acerca de tu pedido:</label><br>
+    <input type="text" id="Des" name="des" placeholder="Descripción"><br>
+
+    <h2>Escoge tu sabor</h2>
+    <select name="sabor" id="sabor">
+        <option value="Rompope">Rompope</option>
+        <option value="3 leches">3 leches</option>
+        <option value="Cajeta">Cajeta</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Fresas con crema">Fresas con crema</option>
+        <option value="Vainilla">Vainilla</option>
+        <option value="Red Velvet">Red Velvet</option>
+    </select>
+
+    <h2>Escoge tu topping</h2>
+    <input type="checkbox" id="t1" name="t1" value="fresas">
+    <label for="sab1">Fresas caramelizadas</label><br>
+    <input type="checkbox" id="t2" name="t2" value="color">
+    <label for="t2">Chispas de colores</label><br>
+    <input type="checkbox" id="t3" name="t3" value="chocolate">
+    <label for="t3">Chispas de chocolate</label><br>
+    <input type="checkbox" id="t4" name="t4" value="gomitas">
+    <label for="t4">Gomitas de sabores</label><br>
+    <input type="checkbox" id="t5" name="t5" value="glaseado">
+    <label for="t5">Glaseado</label><br>
+    <input type="checkbox" id="t6" name="t6" value="arroz">
+    <label for="t6">Arroz inflado</label><br>
+
+    <br><br>
+    <input type="Reset">
+    <input type="Submit">
+    </form>
+</body>
+</html>
