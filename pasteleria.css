@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    border: 1px white;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Sacramento';
+    src: url('./Sacramento-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    background-image: url("./Img/fondo2.webp");
+    font-family: 'Sacramento';
+    color:rgb(192, 170, 72);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+.tittle{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-family: 'Sacramento';
+    font-size: 2rem;
+}
+#cover{
+    background-color: black;
+    font-family: 'The Nautigal', cursive;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+.logo{
+    border: solid 1px rgb(192, 170, 72);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0.5rem;
+}
+#logo{  width: 30%;  }
+
+#gif-cake{  width: 30%;  }
+
+#middle{
+    font-family: 'Sacramento';
+    font-size: 1.5rem;
+    text-align: center;
+    background-repeat: repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    width: 150px;
+}
+.card img{
+    width: 100%;
+}
+
+
+#toppins{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#adornos{
+    font-family: 'Sacramento';
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+#pedido{
+    background-color:rgba(243, 96, 199, 0.548);
+    border: 0;
+    border-radius: 40px;
+    font-size: medium;
+    padding: 20px;
+    color:white;
+    cursor: pointer;
+}
+#pedido:hover{
+    background-color: rgb(81, 81, 216);
+}
+#final{
+    background-color: black;
+    text-align: center;
+}
+
+
