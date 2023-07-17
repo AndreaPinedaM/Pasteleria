@@ -1,30 +1,34 @@
-*{
+* {
     box-sizing: border-box;
     border: 1px white;
     padding: 0;
     margin: 0;
 }
+
 @font-face {
     font-family: 'Sacramento';
     src: url('./Sacramento-Regular.ttf');
     font-style: normal;
     font-weight: normal;
 }
-body{
+
+body {
     background-image: url("./Img/fondo2.webp");
     font-family: 'Sacramento';
-    color:rgb(192, 170, 72);
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(192, 170, 72);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(0, 0, 0);
 }
-.tittle{
+
+.tittle {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
     text-align: center;
     font-family: 'Sacramento';
     font-size: 2rem;
 }
-#cover{
+
+#cover {
     background-color: black;
     font-family: 'The Nautigal', cursive;
     display: flex;
@@ -35,7 +39,8 @@ body{
     font-size: 2rem;
     padding-bottom: 0.5rem;
 }
-.logo{
+
+.logo {
     border: solid 1px rgb(192, 170, 72);
     display: flex;
     flex-direction: column;
@@ -44,11 +49,16 @@ body{
     text-align: center;
     margin: 0.5rem;
 }
-#logo{  width: 30%;  }
 
-#gif-cake{  width: 30%;  }
+#logo {
+    width: 30%;
+}
 
-#middle{
+#gif-cake {
+    width: 18%;
+}
+
+#middle {
     font-family: 'Sacramento';
     font-size: 1.5rem;
     text-align: center;
@@ -58,19 +68,21 @@ body{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-content: center;
     width: 150px;
 }
-.card img{
+
+.card img {
     width: 100%;
 }
 
 
-#toppins{
+#toppins {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,27 +91,27 @@ body{
     margin-bottom: 1rem;
 }
 
-#adornos{
+#adornos {
     font-family: 'Sacramento';
     font-size: 1.2rem;
     text-align: left;
 }
 
-#pedido{
-    background-color:rgba(243, 96, 199, 0.548);
+#pedido {
+    background-color: rgba(243, 96, 199, 0.548);
     border: 0;
     border-radius: 40px;
     font-size: medium;
-    padding: 20px;
-    color:white;
+    padding: 15px;
+    color: white;
     cursor: pointer;
 }
-#pedido:hover{
-    background-color: rgb(81, 81, 216);
+
+#pedido:hover {
+    background-color: rgb(243, 96, 199);
 }
-#final{
+
+#final {
     background-color: black;
     text-align: center;
 }
-
-
